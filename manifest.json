@@ -1,0 +1,18 @@
+{
+    "background": {
+        "scripts": [ "background.js" ]
+    },
+    "browser_action": {
+        "default_icon": "bird.png",
+        "default_title": "Skip YouTube Ad"
+    },
+    "description": "Toru's app",
+    "icons": {
+        "16": "bird.png", 
+        "128": "bird.png"
+    },
+    "manifest_version": 2,
+    "name": "Block",
+    "permissions": [ "storage", "activeTab", "tabs", "*://www.youtube.com/*" ],
+    "version": "1.0.0"
+}
