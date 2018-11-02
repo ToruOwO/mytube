@@ -4,7 +4,8 @@
     },
     "browser_action": {
         "default_icon": "bird.png",
-        "default_title": "Skip YouTube Ad"
+        "default_title": "Skip YouTube Ad",
+        "default_popup": "ui.html"
     },
     "description": "Toru's app",
     "icons": {
