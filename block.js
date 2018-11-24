@@ -2,7 +2,7 @@
 (function() {
 	console.log("Hiiii");
 	try {
-		if (document.querySelector('video').duration < 100) {
+		if (document.querySelector('video').duration) {
 			document.querySelector('video').currentTime = document.querySelector('video').duration;
 			console.log("Skipped :3");
 		};
